@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پنل ارتباطی</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0088cc, #005f87);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .panel {
+            background: #ffffff;
+            padding: 35px 25px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 100%;
+            max-width: 380px;
+        }
+        .panel h2 {
+            color: #222;
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+        .panel p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        .telegram-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color: #0088cc;
+            color: #ffffff;
+            padding: 14px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(0, 136, 204, 0.3);
+            transition: all 0.3s ease;
+        }
+        .telegram-btn:active {
+            transform: scale(0.98);
+            background-color: #0077b5;
+        }
+        .username-tag {
+            margin-top: 15px;
+            display: inline-block;
+            font-size: 13px;
+            color: #888;
+            direction: ltr;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="panel">
+        <h2>به پنل خوش آمدید</h2>
+        <p>برای ورود به تلگرام، روی دکمه زیر کلیک کنید:</p>
+        
+        <!-- لینک آیدی تلگرام شما -->
+        <a href="https://t.me/mahdi_shokrian" target="_blank" class="telegram-btn">
+            ورود به تلگرام
+        </a>
+
+        <span class="username-tag">@mahdi_shokrian</span>
+    </div>
+
+</body>
+</html
